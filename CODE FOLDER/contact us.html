@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <title>CONTACT US</title>
+    <script>
+        function display_pros_contact(){
+            hide_careers_contact();
+            hide_owners_contact();
+            hide_partnerships_contact();
+            hide_press_contact();
+            document.getElementById("display").style.display="block";
+        }
+        function hide_pros_contact(){
+            document.getElementById("display").style.display="none";
+        }
+        function display_owners_contact(){
+            hide_careers_contact();
+            hide_pros_contact();
+            hide_partnerships_contact();
+            hide_press_contact();
+            document.getElementById("display2").style.display="block";
+        }
+        function hide_owners_contact(){
+            document.getElementById("display2").style.display="none";
+        }
+        function display_careers_contact(){
+            hide_pros_contact();
+            hide_owners_contact();
+            hide_partnerships_contact();
+            hide_press_contact();
+            document.getElementById("display3").style.display="block";
+        }
+        function hide_careers_contact(){
+            document.getElementById("display3").style.display="none";
+        }
+        function display_press_contact(){
+            hide_careers_contact();
+            hide_owners_contact();
+            hide_partnerships_contact();
+            hide_pros_contact();
+            document.getElementById("display4").style.display="block";
+        }
+        
+        function hide_press_contact(){
+            document.getElementById("display4").style.display="none";
+        }
+        function display_partnerships_contact(){
+            hide_careers_contact();
+            hide_owners_contact();
+            hide_pros_contact();
+            hide_press_contact();
+            document.getElementById("display5").style.display="block";
+        }
+        function hide_partnerships_contact(){
+            document.getElementById("display5").style.display="none";
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="home page.html"><img height="60" src="logo.png"></a>
+        </div>
+        <ul>
+            <li><a href="browse category.html">BROWSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="write a review.html">WRITE REVIEW</a></li>
+        </ul>
+        <ul class="second_ul">
+            <li><a href="sign up.html">SIGN UP</a></li>
+            <li><a href="login.html">LOG IN</a></li>
+            <li><button  style="background:yellow; height:50px">ARE U A HOME  PRO</button></li>
+        </ul>
+        </nav>
+        <div class="banner">
+            <img class="banner-image" src="contact.jpg">
+            <div class="centered">CONTACT US</div>
+            <div class="centered2">Our team is ready to assist you. Reach out to one of our teams below 
+            <br>
+            <button  style="background:yellow; height:50px">ARE U A SERVICE PRO?</button>
+            </div>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <ul>
+                            <li><button class="button_css button1" onclick="display_pros_contact()">For Service Pros</button></li>
+                            <br>
+                            <br>
+                            <li><button class="button_css button2" onclick="display_owners_contact()">For Homeowners</button></li>
+                            <li><button class="button_css button3" onclick="display_careers_contact()">Careers</button></li>
+                            <li><button class="button_css button4" onclick="display_press_contact()"> Press</button></li>
+                            <li><button class="button_css button5" onclick="display_partnerships_contact()">partnerships</button></li>
+                        </ul>
+                </td>
+                <td>                 
+                    <script>display_pros_contact()</script>
+                    <div class="text-block4" id="display">
+                            <h3>get in touch with us any time, we're always here to help!</h3>
+                            <br>
+                            <h3>1-877-488-0312</h3>
+                            <h3>Service Pro FAQ</h3>
+                            
+                            <p>fill out the form to send us a message</p>
+                            <form>    
+                                <input type="text" placeholder="first name">
+                                <input type="text" placeholder="last name">
+                                <input type="text" placeholder="company name">
+                                <input type="text" placeholder="phone">
+                                <input type="text" placeholder="email">
+                                <input type="text" placeholder="choose a topic">
+                                <input type="text" placeholder="message">
+                                <button style="width: 100%; background-color: yellow;">SEND MESSAGE</button>
+                            </form>
+                    </div>
+                    <div class="text-block4" id="display2">
+                            <h3>get in touch with us any time, we're always here to help!</h3>
+                            <br>
+                            <h3>1-877-488-0312</h3>
+                            <h3>Service Pro FAQ</h3>
+                            <p>fill out the form to send us a message</p>
+                            <form>
+                                <input type="text" placeholder="first name">
+                                <input type="text" placeholder="last name">
+                                <input type="text" placeholder="email">
+                                <input type="text" placeholder="message">
+                                <br>
+                                <br>
+                                <button style="width: 100%; background-color: yellow;">SEND MESSAGE</button>
+                            </form>
+                    </div>
+                    <div class="text-block4" id="display3">
+                        <h3>Interested in joining team home stars check out our current open positions or send us a message to learn more</h3>
+                        <br>
+                        <h3>See our current open roles</h3>
+                        <p>fill out the form to send us a message</p>
+                        <form>                    
+                            <input type="text" placeholder="first name">
+                            <input type="text" placeholder="last name">
+                            <input type="text" placeholder="email">
+                            <input type="text" placeholder="message">
+                            <br>
+                            <br>
+                            <button style="width: 100%; background-color: yellow;">SEND MESSAGE</button>
+                        </form>
+                </div>
+                <div class="text-block4" id="display4">
+                    <h3> Want ot chat our press team</h3>
+                    <br>
+                    <p>fill out the form to send us a message</p>
+                    <form>                    
+                        <input type="text" placeholder="first name">
+                        <input type="text" placeholder="last name">
+                        <input type="text" placeholder="email">
+                        <input type="text" placeholder="message">
+                        <br>
+                        <br>
+                        <button style="width: 100%; background-color: yellow;">SEND MESSAGE</button>
+                    </form>
+                    </div>
+                    <div class="text-block4" id="display5">
+                        <h3>Want to partner with us let's chat </h3>
+                        <br>
+                        <p>fill out the form to send us a message</p>
+                        <form>                    
+                            <input type="text" placeholder="first name">
+                            <input type="text" placeholder="last name">
+                            <input type="text" placeholder="email">
+                            <input type="text" placeholder="message">
+                            <br>
+                            <br>
+                            <button style="width: 100%; background-color: yellow;">SEND MESSAGE</button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        </div>
+        <div class="footer">
+            <div>
+            <ul class="footer_ul">
+                <li>GET EXCLUSIVE TIPS AND ADVICE</li>
+                <li><a href="sign up.html"><button style="background-color: forestgreen; height:60px; width:90px;">SIGN UP</button></a></li>
+            </ul>
+               <p style="text-align:center"> NEED HELP ? <a href="#" style="color: blue;"> CONTACT US</a></p>
+            </div>
+              <hr>
+              <div>
+            <ul style="list-style-type:none;">
+                <li><a href="browse category.html">BROWSE CATEGORIES</a></li>
+                <li><a href="write a review.html">WRITE A REVIEW</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="sign up.html">SIGN UP</a></li>
+                <li><a href="forgot your password.html">FORGOT PASSWORD</a></li>
+                <li><a href="join home stars.html">JOIN HOME STARS</a></li>
+                <li><a href="get quotes.html">GET QUOTES</a></li>
+                <li><a href="contact us.html">CONTACT US</a></li>
+                <li><a href="newsletter sign up.html">NEWS LETTER SIGN UP</a></li>
+            </ul>
+        </div>
+        <div>
+            <img style="margin-left: 650px;" src="footer.PNG" alt="">
+            <BR></BR>
+            <p style="text-align: center;">© 2020 HOME STAR, INC A HOME ADVISOR COMPANY</p>
+        </div>
+          </div>
+</body>
+</html>

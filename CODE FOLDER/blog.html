@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<script>
+    var slideIndex = 0;
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+
+      slides[slideIndex-1].style.display = "block";  
+      setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+    </script>
+<body>
+    <nav class="white_nav">
+        <div class="logo">
+            <a href="home page.html">  <img height="90" src="2nd logo.png"> </a>
+        </div>
+        <ul>
+        </ul>
+        <ul style="float: right;">
+            <li><a href="sign up.html">SIGN UP</a></li>
+            <li><a href="login.html">LOG IN</a></li>
+            <li><a href="browse category.html">BROWSE</a></li>
+            <li><a href="get quotes.html"><button class="button_css button2">get qutes</button></a></li>
+            <li><a href="write a review.html"><button class="button_css button2">write a review</button></a></li>
+            <li><button  style="background:yellow; height:50px">ARE U A HOME  PRO?</button></li>
+        </ul>
+        </nav>
+        <hr>
+        <hr>
+        <div class="slideshow-container">
+            <div class="mySlides">
+              <img  src="home decor2.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+              <img src="home decor3.jpg" style="width:100%">
+            </div>
+            </div>
+            <br>
+            <script>
+                showSlides();
+            </script>
+       
+       <div class="myclass">
+                <div style="background-color:thistle;">
+                    <h3>DESIGNS</h3>
+                    <ul>
+                        <li><img src="design1.jpg"></li>
+                        <li><img src="design2.jpg"></li>
+                        <li><img src="design3.jpg"></li>
+                    </ul>
+                        
+                            <a href="#"><p style="position: absolute; left: 10%; font-style: italic; font-weight: 800;">Alternatives to Pop corn Ceiling</p></a>
+                            <a href="#"><p style="position: absolute; left: 40%; font-style: italic; font-weight: 800">Kitchen vs Kitchenette</p></a>
+                            <a href="#"><p style="position: absolute; left: 70%; font-style: italic; font-weight: 800">Living Room Styles</p></a>
+                    
+                </div>
+                <div style="position: absolute; top: 120%; background-color:thistle;">
+                    <h3>Improvements</h3>
+                    <ul>
+                        <li><img src="repair1.jpg"></li>
+                        <li><img src="repair2.jpg"></li>
+                        <li><img src="repair3.jpg"></li>
+                    </ul>
+                        <a href="#"><p style="position: absolute; left: 10%; font-style: italic; font-weight: 800;">Roof or ceiling repairs</p></a>
+                        <a href="#"><p style="position: absolute; left: 40%; font-style: italic; font-weight: 800">Kitchen Repairs</p></a>
+                        <a href="#"><p style="position: absolute; left: 70%; font-style: italic; font-weight: 800">Interior Repairs</p></a>
+                </div>
+            <div style="position: absolute; top: 235%;">
+                <input type="text" placeholder="type your blogs" style="height:300px; width:700px">
+                <button style="position: absolute; left:110%;
+                top: 50%;" class="button_css button2">submit your blog</button>
+            </div>
+            </div>
+
+            <div class="footer" style="position: absolute;top: 250%;">
+                <div>
+                <ul class="footer_ul">
+                    <li>GET EXCLUSIVE TIPS AND ADVICE</li>
+                    <li><a href="sign up.html"><button style="background-color: forestgreen; height:60px; width:90px;">SIGN UP</button></a></li>
+                  
+                </ul>
+                  <p style="text-align:center"> NEED HELP ? <a href="contact us.html" style="color: blue;"> CONTACT US</a></p>
+                </div>
+                  <hr>
+                  <div>
+                <ul style="list-style-type:none;">
+                    <li><a href="browse category.html">BROWSE CATEGORIES</a></li>
+                    <li><a href="write a review.html">WRITE A REVIEW</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="sign up.html">SIGN UP</a></li>
+                    <li><a href="forgot your password.html">FORGOT PASSWORD</a></li>
+                    <li><a href="join home stars.html">JOIN HOME STARS</a></li>
+                    <li><a href="get quotes.html">GET QUOTES</a></li>
+                    <li><a href="contact us.html">CONTACT US</a></li>
+                    <li><a href="newwletter sign up.html">NEWS LETTER SIGN UP</a></li>
+                </ul>
+            </div>
+            <div>
+                <img style="margin-left: 650px;" src="footer.PNG" alt="">
+                <BR></BR>
+                <p style="text-align: center;">© 2020 HOME STAR, INC A HOME ADVISOR COMPANY</p>
+            </div>
+       </div>
+</body>
+</html>
